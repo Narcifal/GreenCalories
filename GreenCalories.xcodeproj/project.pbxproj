@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		9A5C16CA2BAF3D35003B94C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5C16C92BAF3D35003B94C1 /* AppDelegate.swift */; };
 		9A5C16CC2BAF3D35003B94C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5C16CB2BAF3D35003B94C1 /* SceneDelegate.swift */; };
-		9A5C16CE2BAF3D35003B94C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5C16CD2BAF3D35003B94C1 /* ViewController.swift */; };
-		9A5C16D12BAF3D35003B94C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A5C16CF2BAF3D35003B94C1 /* Main.storyboard */; };
 		9A5C16D32BAF3D38003B94C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A5C16D22BAF3D38003B94C1 /* Assets.xcassets */; };
 		9A5C16D62BAF3D38003B94C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A5C16D42BAF3D38003B94C1 /* LaunchScreen.storyboard */; };
+		9A5C16E72BAF3ED3003B94C1 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 9A5C16E62BAF3ED3003B94C1 /* Lottie */; };
+		9A5C16EA2BAF3EF1003B94C1 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 9A5C16E92BAF3EF1003B94C1 /* GoogleSignIn */; };
+		9A5C16EF2BAF3F16003B94C1 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 9A5C16EE2BAF3F16003B94C1 /* Kingfisher */; };
+		9A5C16FE2BAF40EC003B94C1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9A5C16FD2BAF40EC003B94C1 /* FirebaseAuth */; };
+		9A5C17042BAF40EC003B94C1 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 9A5C17032BAF40EC003B94C1 /* FirebaseDatabase */; };
+		9A5C17242BAF40EC003B94C1 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 9A5C17232BAF40EC003B94C1 /* FirebaseStorage */; };
+		9A5C172E2BAF41DA003B94C1 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5C172D2BAF41DA003B94C1 /* AppConfiguration.swift */; };
+		9A5C17302BAF41E6003B94C1 /* AppLaunchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5C172F2BAF41E6003B94C1 /* AppLaunchService.swift */; };
+		9A5C17332BAF41FF003B94C1 /* ServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5C17322BAF41FF003B94C1 /* ServiceLocator.swift */; };
+		9A5C17352BAF4264003B94C1 /* LoadingAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5C17342BAF4264003B94C1 /* LoadingAnimationViewController.swift */; };
+		9A5C173A2BAF4319003B94C1 /* ScreenFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5C17392BAF4319003B94C1 /* ScreenFactory.swift */; };
+		9A5C173D2BAF43A8003B94C1 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5C173C2BAF43A8003B94C1 /* AppConstant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9A5C16C62BAF3D35003B94C1 /* GreenCalories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenCalories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A5C16C92BAF3D35003B94C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A5C16CB2BAF3D35003B94C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9A5C16CD2BAF3D35003B94C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9A5C16D02BAF3D35003B94C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A5C16D22BAF3D38003B94C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A5C16D52BAF3D38003B94C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A5C16D72BAF3D38003B94C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A5C172D2BAF41DA003B94C1 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		9A5C172F2BAF41E6003B94C1 /* AppLaunchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLaunchService.swift; sourceTree = "<group>"; };
+		9A5C17322BAF41FF003B94C1 /* ServiceLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLocator.swift; sourceTree = "<group>"; };
+		9A5C17342BAF4264003B94C1 /* LoadingAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAnimationViewController.swift; sourceTree = "<group>"; };
+		9A5C17392BAF4319003B94C1 /* ScreenFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenFactory.swift; sourceTree = "<group>"; };
+		9A5C173C2BAF43A8003B94C1 /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A5C16EF2BAF3F16003B94C1 /* Kingfisher in Frameworks */,
+				9A5C16E72BAF3ED3003B94C1 /* Lottie in Frameworks */,
+				9A5C16EA2BAF3EF1003B94C1 /* GoogleSignIn in Frameworks */,
+				9A5C16FE2BAF40EC003B94C1 /* FirebaseAuth in Frameworks */,
+				9A5C17242BAF40EC003B94C1 /* FirebaseStorage in Frameworks */,
+				9A5C17042BAF40EC003B94C1 /* FirebaseDatabase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +76,139 @@
 		9A5C16C82BAF3D35003B94C1 /* GreenCalories */ = {
 			isa = PBXGroup;
 			children = (
-				9A5C16C92BAF3D35003B94C1 /* AppDelegate.swift */,
-				9A5C16CB2BAF3D35003B94C1 /* SceneDelegate.swift */,
-				9A5C16CD2BAF3D35003B94C1 /* ViewController.swift */,
-				9A5C16CF2BAF3D35003B94C1 /* Main.storyboard */,
-				9A5C16D22BAF3D38003B94C1 /* Assets.xcassets */,
-				9A5C16D42BAF3D38003B94C1 /* LaunchScreen.storyboard */,
-				9A5C16D72BAF3D38003B94C1 /* Info.plist */,
+				9A5C16DE2BAF3DE7003B94C1 /* Application */,
+				9A5C16E02BAF3E68003B94C1 /* Common */,
+				9A5C17292BAF4170003B94C1 /* Managers */,
+				9A5C17362BAF42F8003B94C1 /* Routing */,
+				9A5C16E12BAF3E9D003B94C1 /* Presentation */,
+				9A5C17282BAF4162003B94C1 /* Helpers */,
+				9A5C172A2BAF417B003B94C1 /* Services */,
+				9A5C16DF2BAF3E60003B94C1 /* Resources */,
 			);
 			path = GreenCalories;
+			sourceTree = "<group>";
+		};
+		9A5C16DE2BAF3DE7003B94C1 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9A5C16C92BAF3D35003B94C1 /* AppDelegate.swift */,
+				9A5C16CB2BAF3D35003B94C1 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		9A5C16DF2BAF3E60003B94C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9A5C16D22BAF3D38003B94C1 /* Assets.xcassets */,
+				9A5C173C2BAF43A8003B94C1 /* AppConstant.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9A5C16E02BAF3E68003B94C1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9A5C16D72BAF3D38003B94C1 /* Info.plist */,
+				9A5C173E2BAF4407003B94C1 /* Launch */,
+				9A5C17272BAF4159003B94C1 /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9A5C16E12BAF3E9D003B94C1 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				9A5C16E42BAF3EB0003B94C1 /* Common */,
+				9A5C16E22BAF3EA6003B94C1 /* Custom */,
+				9A5C16E32BAF3EA9003B94C1 /* Scenes */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		9A5C16E22BAF3EA6003B94C1 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				9A5C17342BAF4264003B94C1 /* LoadingAnimationViewController.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		9A5C16E32BAF3EA9003B94C1 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		9A5C16E42BAF3EB0003B94C1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9A5C17272BAF4159003B94C1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9A5C17282BAF4162003B94C1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9A5C17292BAF4170003B94C1 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				9A5C172B2BAF41CA003B94C1 /* Root */,
+				9A5C17312BAF41F6003B94C1 /* ServiceLocator */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		9A5C172A2BAF417B003B94C1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9A5C172B2BAF41CA003B94C1 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				9A5C172D2BAF41DA003B94C1 /* AppConfiguration.swift */,
+				9A5C172F2BAF41E6003B94C1 /* AppLaunchService.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		9A5C17312BAF41F6003B94C1 /* ServiceLocator */ = {
+			isa = PBXGroup;
+			children = (
+				9A5C17322BAF41FF003B94C1 /* ServiceLocator.swift */,
+			);
+			path = ServiceLocator;
+			sourceTree = "<group>";
+		};
+		9A5C17362BAF42F8003B94C1 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				9A5C17392BAF4319003B94C1 /* ScreenFactory.swift */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		9A5C173E2BAF4407003B94C1 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				9A5C16D42BAF3D38003B94C1 /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +227,14 @@
 			dependencies = (
 			);
 			name = GreenCalories;
+			packageProductDependencies = (
+				9A5C16E62BAF3ED3003B94C1 /* Lottie */,
+				9A5C16E92BAF3EF1003B94C1 /* GoogleSignIn */,
+				9A5C16EE2BAF3F16003B94C1 /* Kingfisher */,
+				9A5C16FD2BAF40EC003B94C1 /* FirebaseAuth */,
+				9A5C17032BAF40EC003B94C1 /* FirebaseDatabase */,
+				9A5C17232BAF40EC003B94C1 /* FirebaseStorage */,
+			);
 			productName = GreenCalories;
 			productReference = 9A5C16C62BAF3D35003B94C1 /* GreenCalories.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +263,12 @@
 				Base,
 			);
 			mainGroup = 9A5C16BD2BAF3D35003B94C1;
+			packageReferences = (
+				9A5C16E52BAF3ED3003B94C1 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				9A5C16E82BAF3EF1003B94C1 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				9A5C16ED2BAF3F16003B94C1 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				9A5C16F02BAF40EC003B94C1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 9A5C16C72BAF3D35003B94C1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +285,6 @@
 			files = (
 				9A5C16D62BAF3D38003B94C1 /* LaunchScreen.storyboard in Resources */,
 				9A5C16D32BAF3D38003B94C1 /* Assets.xcassets in Resources */,
-				9A5C16D12BAF3D35003B94C1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +295,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A5C16CE2BAF3D35003B94C1 /* ViewController.swift in Sources */,
+				9A5C172E2BAF41DA003B94C1 /* AppConfiguration.swift in Sources */,
+				9A5C17332BAF41FF003B94C1 /* ServiceLocator.swift in Sources */,
+				9A5C173A2BAF4319003B94C1 /* ScreenFactory.swift in Sources */,
 				9A5C16CA2BAF3D35003B94C1 /* AppDelegate.swift in Sources */,
+				9A5C17302BAF41E6003B94C1 /* AppLaunchService.swift in Sources */,
+				9A5C17352BAF4264003B94C1 /* LoadingAnimationViewController.swift in Sources */,
 				9A5C16CC2BAF3D35003B94C1 /* SceneDelegate.swift in Sources */,
+				9A5C173D2BAF43A8003B94C1 /* AppConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9A5C16CF2BAF3D35003B94C1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9A5C16D02BAF3D35003B94C1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9A5C16D42BAF3D38003B94C1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,11 +448,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9A2Y9UTZLK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GreenCalories/Info.plist;
+				INFOPLIST_FILE = GreenCalories/Common/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -324,11 +477,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9A2Y9UTZLK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GreenCalories/Info.plist;
+				INFOPLIST_FILE = GreenCalories/Common/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -367,6 +519,74 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9A5C16E52BAF3ED3003B94C1 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.1;
+			};
+		};
+		9A5C16E82BAF3EF1003B94C1 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		9A5C16ED2BAF3F16003B94C1 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+		9A5C16F02BAF40EC003B94C1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.23.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9A5C16E62BAF3ED3003B94C1 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A5C16E52BAF3ED3003B94C1 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		9A5C16E92BAF3EF1003B94C1 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A5C16E82BAF3EF1003B94C1 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		9A5C16EE2BAF3F16003B94C1 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A5C16ED2BAF3F16003B94C1 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		9A5C16FD2BAF40EC003B94C1 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A5C16F02BAF40EC003B94C1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		9A5C17032BAF40EC003B94C1 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A5C16F02BAF40EC003B94C1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		9A5C17232BAF40EC003B94C1 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A5C16F02BAF40EC003B94C1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9A5C16BE2BAF3D35003B94C1 /* Project object */;
 }
