@@ -14,13 +14,9 @@ final class AppLaunchService {
     private var window: UIWindow!
     private let windowScene: UIWindowScene
     private let appConfiguration: AppConfiguration
-    private var presentingViewController: UIViewController? {
-        didSet {
-            dispatchGroup.leave()
-        }
-    }
     private lazy var loadingAnimationView = LoadingAnimationViewController()
-    private lazy var dispatchGroup = DispatchGroup()
+    private lazy var authScreenFactory = AuthScreenFactory()
+    private lazy var authRouter: AuthRouter = DefaultAuthRouter(authScreenFactory: authScreenFactory)
     
     // MARK: - Init -
     
@@ -36,6 +32,11 @@ final class AppLaunchService {
     
     func start() {
         appConfiguration.configure()
+        
+        let welcomeViewController = authScreenFactory.makeWelcomeViewController(router: authRouter)
+        authRouter.setRoot(welcomeViewController)
+        
+        configureWindow(with: welcomeViewController)
     }
 }
 
